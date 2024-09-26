@@ -1,0 +1,341 @@
+@media(width<576px){
+    .heroImage{
+        height: 400px !important;
+    }
+    .heroImage img{
+        width: 100% !important;
+        height: 100% !important;   
+    }
+    .serviceHeading{
+        padding-left: 12px;
+    }
+    .sGrid2{
+        display: flex;
+        flex-direction: column;
+    }
+    .serviceBody{
+        padding:0 12px 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .serviceCardBody{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:0 20px;
+    }
+    .sCard{
+        margin-bottom: 20px;
+    }
+    .aboutImage{
+        padding:0 20px !important;
+    }
+    .aboutBody{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .aboutJumbotron{
+        text-align: center !important;
+        padding:20px !important;
+    }
+    .aboutJumbotron h2{
+        font-size: 30px !important;
+    }
+    .aboutJumbotron p{
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        /* background: aqua; */
+        gap: 10px;
+        padding-left: 10px;
+    }
+    .aboutCardImage{
+        width: 69px !important;
+        height: 69px !important;
+    }
+    .aboutCardImage img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .btnLearnMore{
+        padding:10px 20px;
+    }
+    .btnLearnMore a{
+        /* background: red; */
+        text-align: center;
+    }
+    .servicesHeader{
+        margin: 20px 0 0 !important;
+        padding:10px 40px !important;
+    }
+    .servicesBody{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .projectContainer{
+        padding: 20px 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0px !important;
+    }
+    .project{
+        padding-bottom: 0;
+    }
+    .projectHeader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin:0 0 48px;
+        padding:0 12px;
+    }
+    .projectHeader h2{
+        font-size: 30px !important;
+    }
+    .projectHeader p{
+        max-width: 300px !important;
+    }
+    .projectHeader button{
+        padding: 10px 40px;
+    }
+    .projectBody{
+        padding:48px !important;
+        padding-bottom: 0px !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .projectCard{
+        width:330px;
+        margin-bottom: 48px;
+    }
+    .projectCardBody{
+        height: 120px;
+    }
+    .experienceBody{
+        margin: 0 !important;
+        padding: 50px 12px !important;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .experienceBody h2{
+        font-size: 30px;
+    }
+    .experienceBody h6{
+        font-size: 16px;
+    }
+    .experienceBody p{
+        text-align: left;
+        padding: 0 30px !important;
+    }
+    .expList{
+        margin-bottom: 16px !important;
+        padding-left: 32px !important;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    .expList li{
+        padding: 0;margin: 0;
+        padding-bottom: 10px;
+    }
+    .expertise{
+        padding: 30px !important;
+    }
+    .expertise img{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .expertiseText h4{
+        font-size: 30px;
+        margin-bottom: 16px;
+        text-align: left;
+        font-weight: normal;
+    }
+    .expertiseText p{
+        text-align: left;
+        padding-left: 0px !important;
+    }
+    .experienceImage{
+        width: 401px !important;
+        height: 401px !important;
+        padding: 0 40px !important;
+        margin: 0 !important;
+    }
+    .experienceImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .client{
+        width: 350px !important;
+        height: 600px !important;
+        margin-bottom: 50px !important;
+        padding: 0 30px !important;
+    }
+    .clientJumbo h6{
+        text-align: center;
+    }
+    .clientJumbo h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .testiImage{
+        height: 105px !important;
+        width: 105px !important;
+    }
+    .testiImage img{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+    .techIndexContainer{
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 !important;
+        padding-top: 300px !important;
+    }
+    .techIndexHeader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .techIndexHeader h6{
+        padding-top: 200px;
+    }
+    .techIndexHeader h2{
+        /* padding: 0 20px; */
+        width: 320px !important;
+        /* background: aqua; */
+    }
+    .techIndexBody{
+        /* margin-top: -1000px !important; */
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .techIndexCard{
+        margin-bottom: 60px;
+    }
+    .blogContainer{
+        /* padding: 0 0px 100px !important; */
+        /* padding: 0px; */
+    }
+    .blog{
+        padding: 10px 0;
+    }
+    .blogHeader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .blogHeader h2{
+        max-width: 350px;
+    }
+    .blogSlide{
+        margin: 0 !important;
+        margin-top: 30px !important;
+        padding: 0 20px !important;
+        width: 100% !important;
+        height: 100%  !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .blogCard{
+        width: 330px !important;
+        margin-right: 20px !important;
+    }
+    .contactBody{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactContainer{
+        height: 120vh !important;
+        /* background: blue; */
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+    .contact{
+        min-height:100vh;
+        /* background: red; */
+    }
+    .contactHeader{
+        margin-top: -100px;
+    }
+    .contactBody{
+        margin-top: 250px;
+        /* background: violet; */
+    }
+    .contactForm{
+        /* background: brown; */
+        height: 100vh !important;
+        padding-bottom: 30px;
+        margin-top: -30px;
+    }
+    .contactFooterImage{
+        margin-top: 10px !important;
+        width:350px !important;
+        height:auto;
+        border-radius:10px 10px 0px 0px!important;
+        /* background: aqua; */
+    }
+    .contactFooterImage img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0px 0px!important;
+    }
+    .contactForm{
+        height: 600px !important;
+        width: 350px !important;
+        border-radius: 0 0px 10px 10px !important;
+        margin-top: -30px !important;
+        padding-bottom: 30px;
+    }
+    .contactLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+    .cLinksBox{
+        /* display: none; */
+        /* padding: 50px 0; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footerCards,
+    .cLBody{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 350px;    
+    }
+    .contactHeader h2{
+        font-size: 30px;
+        padding:10px !important;
+    }
+    .cLImage{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px !important;
+    }
+    .cLImg{
+        width: 350px !important;
+    }
+    .cLGrid{
+        width:100% !important;
+    }
+    .cLGrid:last-child{
+        /* background: aqua !important; */
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px !important;
+    }
+}
